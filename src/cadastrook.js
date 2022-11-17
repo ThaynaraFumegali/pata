@@ -1,8 +1,8 @@
 import logo from './logo-amarelo-claro.png';
 import ok from './ok.png';
-import './App.css';
+import './cadastrook.css';
 
-function App() { 
+function Cadastrook() { 
 
   //const navigation = useNavigation();
  
@@ -14,15 +14,15 @@ function App() {
     <div className="Login">
       <header className="Login-header">
         <img src={logo} className="Login-logo" alt="logo" />
-        <h3>Bem vindo!</h3>
-        <text>O que você deseja fazer? </text>
+        <h3>O cadastro ta ok!</h3>
+        <text>Agora você já pode voltar à tela de login e logar normalmente na plataforma. </text>
+        <img src={ok} className="ok" alt="certo" />
           <div className='Buttons'>
-            <input type="submit" value="Localizei um animal" class="button" />
-            <input type="submit" value="Quero adotar um animal" class="button" />
+            <input type="submit" value="Ir para a tela de login" class="button" />
           </div>
       </header>
     </div>
   );
 }
 
-export default App;
+export default Cadastrook;
