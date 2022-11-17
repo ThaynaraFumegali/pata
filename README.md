@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# Trabalho desenvolvido para a disciplina de dispositivos móveis 
 
+Tutoriais e documentações podem ser encontrados abaixo:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
